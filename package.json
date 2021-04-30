@@ -1,0 +1,37 @@
+{
+  "name": "ssb-http-invite-client",
+  "description": "Secret-stack plugin to use HTTP invites as a client",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ssb-ngi-pointer/ssb-http-invite-client",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ssb-ngi-pointer/ssb-http-invite-client.git"
+  },
+  "dependencies": {
+    "@minireq/browser": "^2.0.0",
+    "@minireq/node": "^2.0.0",
+    "ssb-ref": "^2.14.3"
+  },
+  "devDependencies": {
+    "@types/node": "12.x",
+    "nyc": "^15.1.0",
+    "secret-stack": "6.3.2",
+    "server": "^1.0.32",
+    "ssb-caps": "^1.1.0",
+    "ssb-keys": "^8.1.0",
+    "tap-bail": "^1.0.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.2.2",
+    "typescript": "4.2.x"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "tape": "tape test/*-cases.js | tap-bail | tap-spec",
+    "test": "npm run compile && npm run tape",
+    "coverage": "nyc npm run test"
+  },
+  "author": "Andre Staltz <contact@staltz.com> (http://staltz.com)",
+  "license": "LGPL-3.0"
+}
