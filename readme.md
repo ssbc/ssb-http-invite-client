@@ -30,7 +30,7 @@ Require and use the following plugin into your ssb-server or secret-stack setup:
 
 ## Usage
 
-### `ssb.httpInviteClient.claim(uri, cb)
+### `ssb.httpInviteClient.claim(uri, cb)`
 
 * `uri` is a string, either an HTTP URL or an SSB URI:
     * `https://myroom.com/join?invite=123abc`
