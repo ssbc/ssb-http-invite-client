@@ -1,7 +1,7 @@
 {
   "name": "ssb-http-invite-client",
   "description": "Secret-stack plugin to use HTTP invites as a client",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/ssb-ngi-pointer/ssb-http-invite-client",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
