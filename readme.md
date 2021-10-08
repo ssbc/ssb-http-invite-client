@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021 Andre Staltz
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # ssb-http-invite-client
 
 Plugin that implements the client-side of the [SSB HTTP Invites spec](https://ssb-ngi-pointer.github.io/ssb-http-invite-spec). This is supposed to be installed and used on **apps** that make remote calls to servers, thus *clients*.
